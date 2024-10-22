@@ -1,0 +1,58 @@
+.vip-history-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vip-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .vip-history-table th,
+  .vip-history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .vip-history-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .vip-history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .vip-history-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container {
+    padding: 20px; 
+    max-width: 1200px; 
+    margin: auto; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }

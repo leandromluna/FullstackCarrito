@@ -1,0 +1,90 @@
+.cart {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  overflow-y: auto;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.cart-item img.cart-item-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.cart-item-info {
+  flex: 1;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.cart-total {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.checkout-button:hover {
+  background-color: darkgreen;
+}
+
+button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;
+}
+
+.clear-cart-button {
+  background-color: #ff4c4c; 
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.clear-cart-button:hover {
+  background-color: #ff1c1c; 
+}
+
+.trash-icon {
+  margin-right: 2px; 
+}
+
+.bonification-message {
+  color: #28a745;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}

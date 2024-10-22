@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./carrito
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"  # Ajusta el puerto según lo que use tu aplicación
+
+  frontend:
+    build:
+      context: ./e-commerceFront
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"  # Mapea el puerto 80 del contenedor al puerto 80 de tu máquina
